@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UmbaTest</string>
+    <string name="latest">Latest</string>
+    <string name="popular">Popular</string>
+    <string name="upcoming">Upcoming</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagesource">ImageSource</string>
+    <string name="storyline">STORYLINE</string>
+</resources>

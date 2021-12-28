@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MovieDetailsActivity">
+
+    <ImageView
+        android:id="@+id/center_image"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="250dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            tools:text="FURY(2014)"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/no_of_vote_count"
+            android:layout_alignParentStart="true"
+            android:id="@+id/title"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            tools:text="4.8"
+            android:id="@+id/no_of_vote_count"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"
+            app:drawableEndCompat="@drawable/ic_star_rate" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/storyline"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        tools:text="Content is here"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/latest_item"
+        android:enabled="true"
+        android:icon="@drawable/ic_movie_latest"
+        android:title="@string/latest"/>
+    <item
+        android:id="@+id/popular_item"
+        android:enabled="true"
+        android:icon="@drawable/ic_movie_popular"
+        android:title="@string/popular"/>
+    <item
+        android:id="@+id/upcoming_item"
+        android:enabled="true"
+        android:icon="@drawable/ic_movie_upcoming"
+        android:title="@string/upcoming"/>
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    android:id="@+id/card"
+    android:layout_marginTop="4dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/imagesource" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:paddingTop="16dp"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                tools:text="Avengers: Age of Ultron"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:id="@+id/movie_title"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                tools:text="Overview"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="4dp"
+                android:id="@+id/overview"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                tools:text="4.0"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="4dp"
+                android:id="@+id/rating"
+                android:layout_gravity="bottom"
+                android:drawablePadding="6dp"
+                android:layout_height="wrap_content"
+                app:drawableEndCompat="@drawable/ic_star_rate" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
